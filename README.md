@@ -25,7 +25,7 @@ A tool to generate datasets of QR codes, EAN13 barcodes, and DataMatrix codes wi
 ### Use as a CLI Tool
 1. Install via install.sh:
    ```bash
-   python3 main.py --hash_length 16 --dir_name "my_codes" --file_format "png" --files_count 5 --code_type "qr"
+   sudo sh install.sh
    ```
 2. Generate codes with the c-gen command:
    ```bash
